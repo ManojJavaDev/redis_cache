@@ -58,7 +58,4 @@ public class UserProfileServiceImpl implements UserProfileService {
         throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Resource Not Found with category Id : " + userProfile.getId());
     }
 
-
-
-
 }
