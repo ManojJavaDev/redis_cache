@@ -14,12 +14,9 @@ public interface UserProfileService {
 
     String deleteUserProfile(Long Id);
 
-    String updateUserProfile();
 
 
-
-
-
+    String updateUserProfile(UserProfile userProfile);
 }
 
 
